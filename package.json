@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "kaltura": "^3.3.3",
+    "request": "^2.79.0"
+  }
+}

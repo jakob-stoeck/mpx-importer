@@ -1,0 +1,20 @@
+// replace values and save as config.js
+module.exports = {
+  kaltura: {
+    partner_id: 1,
+    service_url: 'https://www.kaltura.com',
+    user: 'user@example.org',
+    secret: 'it is turtles all the way down',
+  },
+  mpx: {
+    user: 'user@example.org',
+    pass: 'password',
+    testToken: {
+      token: 'asdf',
+      duration: 30,
+      userName: 'user@example.org',
+      idleTimeout: 30,
+      userId: 'https://identity.auth.theplatform.com/idm/data/User/mpx/1'
+    }
+  }
+};

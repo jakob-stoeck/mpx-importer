@@ -1,0 +1,94 @@
+# Kaltura -> MPX Migration
+
+Work in progress
+
+### Questions
+
+- Our legacy system (Kaltura) has an ID which we want to migrate to mpx to backwards-compatible reasons. We like to be able to filter for it. Which mpx media id should we use? guid, pid or a custom field?
+
+### Kaltura Services
+
+ - accessControlProfile: KalturaAccessControlProfileService
+ - accessControl: KalturaAccessControlService
+ - adminUser: KalturaAdminUserService
+ - analytics: KalturaAnalyticsService
+ - appToken: KalturaAppTokenService
+ - baseEntry: KalturaBaseEntryService
+ - bulkUpload: KalturaBulkUploadService
+ - categoryEntry: KalturaCategoryEntryService
+ - category: KalturaCategoryService
+ - categoryUser: KalturaCategoryUserService
+ - conversionProfileAssetParams: KalturaConversionProfileAssetParamsService
+ - conversionProfile: KalturaConversionProfileService
+ - data: KalturaDataService
+ - deliveryProfile: KalturaDeliveryProfileService
+ - EmailIngestionProfile: KalturaEmailIngestionProfileService
+ - entryServerNode: KalturaEntryServerNodeService
+ - fileAsset: KalturaFileAssetService
+ - flavorAsset: KalturaFlavorAssetService
+ - flavorParamsOutput: KalturaFlavorParamsOutputService
+ - flavorParams: KalturaFlavorParamsService
+ - groupUser: KalturaGroupUserService
+ - liveChannelSegment: KalturaLiveChannelSegmentService
+ - liveChannel: KalturaLiveChannelService
+ - liveReports: KalturaLiveReportsService
+ - liveStats: KalturaLiveStatsService
+ - liveStream: KalturaLiveStreamService
+ - mediaInfo: KalturaMediaInfoService
+ - media: KalturaMediaService
+ - mixing: KalturaMixingService
+ - notification: KalturaNotificationService
+ - partner: KalturaPartnerService
+ - permissionItem: KalturaPermissionItemService
+ - permission: KalturaPermissionService
+ - playlist: KalturaPlaylistService
+ - report: KalturaReportService
+ - responseProfile: KalturaResponseProfileService
+ - schema: KalturaSchemaService
+ - search: KalturaSearchService
+ - serverNode: KalturaServerNodeService
+ - session: KalturaSessionService
+ - stats: KalturaStatsService
+ - storageProfile: KalturaStorageProfileService
+ - syndicationFeed: KalturaSyndicationFeedService
+ - system: KalturaSystemService
+ - thumbAsset: KalturaThumbAssetService
+ - thumbParamsOutput: KalturaThumbParamsOutputService
+ - thumbParams: KalturaThumbParamsService
+ - uiConf: KalturaUiConfService
+ - upload: KalturaUploadService
+ - uploadToken: KalturaUploadTokenService
+ - userEntry: KalturaUserEntryService
+ - userRole: KalturaUserRoleService
+ - user: KalturaUserService
+ - widget: KalturaWidgetService
+ - metadata: KalturaMetadataService
+ - metadataProfile: KalturaMetadataProfileService
+ - documents: KalturaDocumentsService
+ - virusScanProfile: KalturaVirusScanProfileService
+ - distributionProfile: KalturaDistributionProfileService
+ - entryDistribution: KalturaEntryDistributionService
+ - distributionProvider: KalturaDistributionProviderService
+ - genericDistributionProvider: KalturaGenericDistributionProviderService
+ - genericDistributionProviderAction: KalturaGenericDistributionProviderActionService
+ - cuePoint: KalturaCuePointService
+ - annotation: KalturaAnnotationService
+ - quiz: KalturaQuizService
+ - shortLink: KalturaShortLinkService
+ - bulk: KalturaBulkService
+ - dropFolder: KalturaDropFolderService
+ - dropFolderFile: KalturaDropFolderFileService
+ - captionAsset: KalturaCaptionAssetService
+ - captionParams: KalturaCaptionParamsService
+ - captionAssetItem: KalturaCaptionAssetItemService
+ - attachmentAsset: KalturaAttachmentAssetService
+ - tag: KalturaTagService
+ - like: KalturaLikeService
+ - varConsole: KalturaVarConsoleService
+ - eventNotificationTemplate: KalturaEventNotificationTemplateService
+ - externalMedia: KalturaExternalMediaService
+ - scheduleEvent: KalturaScheduleEventService
+ - scheduleResource: KalturaScheduleResourceService
+ - scheduleEventResource: KalturaScheduleEventResourceService
+ - scheduledTaskProfile: KalturaScheduledTaskProfileService
+ - integration: KalturaIntegrationService
